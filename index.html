@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GUESS MY NUMBER IF YOU CAN!</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <center>
+        <br>
+        <h1 id="GuessMe">GUESS MY NUMBER IF YOU CAN!</h1>
+        <table>
+            <tr>
+                <td>
+                    <h2>&nbsp;Manual&nbsp;</h2>
+                </td>
+
+                <td>
+                    <div class="manual">
+                         &nbsp; Guessing a Random Number between 1 and 100 in 10 turns or less. We will tell you if your number was too low or too high. &nbsp;
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <br>
+
+
+        <div class="form"> 
+            <input type = "text" id = "Field" class = "Field" placeholder="Enter a Number (1-100)"> 
+            <input type = "submit" value = "Submit guess" class = "guessSubmit" id = "Submit"> 
+        </div>
+        <br>
+        <table align="center">
+            <tr>
+                <td>
+                    <div class="result"></div>
+                </td>
+            </tr>
+        </table>
+        <br>
+
+        <table>
+            <tr>
+                <td>
+                    <h2>&nbsp;History&nbsp;</h2>
+                </td>
+                <td>
+                    <h3>&nbsp;</h3>
+                </td>
+                <td class="TIMES" > </td>
+            </tr>
+        </table>
+        <br>
+        </center>
+        <a href="index.html"><button id="start"><b>START NEW GAME!</b></button></a>
+    <script src="main.js"></script>
+</body>
+</html>

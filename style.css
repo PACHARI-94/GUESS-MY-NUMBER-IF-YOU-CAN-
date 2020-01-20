@@ -1,0 +1,69 @@
+body{
+    background-color: #213058;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    color: #f0e6d7;
+}
+#GuessMe{
+    font-size: 400%;
+    color: #28696a;
+    text-shadow: 4px 0  #f0e6d7;
+    font-family: 'Anton', sans-serif;
+    background-color: #f4ae3f ;
+    width: 70%;
+ 
+}
+h2{
+    font-size: 200%;
+    color: #28696a;
+    font-family: 'Anton', sans-serif;
+    background-color: #f4ae3f ;
+    text-shadow: 2px 0  #f0e6d7;
+    width: 100%;
+}
+.manual{
+    font-size: 120%;
+    color: #f0e6d7;
+}
+
+.Field{
+    font-size: 180%;
+    color: #213058;
+    font-family: 'Anton', sans-serif;
+  }
+
+  .guessSubmit{
+    font-size: 180%;
+    color: #28696a;
+    font-family: 'Anton', sans-serif;
+    background-color: #f0e6d7;
+    
+  }
+
+  .result{
+    font-size: 200%;
+    color: #f0e6d7;
+    font-family: 'Anton', sans-serif;
+    background-color: #28696a;
+
+  }
+
+  .TIMES{
+    font-size: 1.5rem;
+    color: #f0e6d7;
+    font-family: 'Anton', sans-serif;
+    
+  }
+  .Startnewgame{
+    font-size: 200%;
+    color: #28696a;
+    font-family: 'Anton', sans-serif;
+    background-color: #f0e6d7;
+  }
+  #start{
+    font-size: 180%;
+    color: #28696a;
+    font-family: 'Anton', sans-serif;
+    background-color: #f0e6d7;
+  }
+  
